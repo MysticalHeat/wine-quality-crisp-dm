@@ -1,0 +1,5 @@
+model,CV MAE,CV std,params
+Random Forest,0.5297367770078418,0.022059076707233175,{'model__min_samples_leaf': 1}
+HistGradientBoosting,0.5358470350277146,0.02193216563412165,"{'model__l2_regularization': 10.0, 'model__max_leaf_nodes': 15}"
+Ridge,0.5624716749772121,0.0244195280340285,{'model__alpha': 10.0}
+Dummy (median),0.6394531314498952,0.030946497261986627,{}

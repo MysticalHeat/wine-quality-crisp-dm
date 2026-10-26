@@ -1,0 +1,39 @@
+{
+  "dataset": "rajyellow46/wine-quality",
+  "dataset_version": 1,
+  "sha256": "cb01f91c70de066f85d4cffac3bb163e4719523861cd79ba8825b722cf98b48c",
+  "seed": 42,
+  "raw_rows": 6497,
+  "duplicates_removed": 1168,
+  "train_rows": 4263,
+  "test_rows": 1066,
+  "selected_model": "Random Forest",
+  "selected_params": {
+    "model__min_samples_leaf": 1
+  },
+  "cv_mae": 0.5297367770078418,
+  "test_metrics": {
+    "MAE": 0.5284135918282259,
+    "RMSE": 0.6852108247920844,
+    "R2": 0.3928527359991385,
+    "within_1": 0.8649155722326454
+  },
+  "baseline_test_metrics": {
+    "MAE": 0.6575984990619137,
+    "RMSE": 0.9039209980588498,
+    "R2": -0.05659016087496327,
+    "within_1": 0.924015009380863
+  },
+  "relative_mae_improvement": 0.1964495165636394,
+  "success_threshold": 0.1,
+  "success": true,
+  "versions": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0"
+  },
+  "python": "3.13.5"
+}

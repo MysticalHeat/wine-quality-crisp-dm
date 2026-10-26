@@ -1,0 +1,2 @@
+# Сохраняем исходные CRLF и контрольную сумму датасета из Kaggle.
+winequalityN.csv -text whitespace=cr-at-eol
